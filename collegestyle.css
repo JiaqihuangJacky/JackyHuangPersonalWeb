@@ -1,0 +1,339 @@
+body {
+  	background-color: #FFF;
+  	margin: 0;
+  	padding: 0px;
+  	height: 1080px;
+  	width: 100%;
+  	
+}
+
+.navigation {
+  background-color: black;
+  position: absolute;
+  left: 0;
+  text-align: center;
+  width: 100%;
+  height: 6%;
+  z-index: 10;
+  opacity:0.9;
+  filter:apha(opacity=50);
+  text-decoration:none;
+  top:0%;
+}
+
+
+.first{
+   width:350px;
+   height:200px;
+}
+
+h2 {
+  color: black;
+  font-family: "Times New Roman", Georgia, Serif;
+  text-align: center;
+  font-size: 35px;
+  font-weight: 100;
+}
+
+h3{
+	text-align: center;
+    font-size: 35px;
+    line-height: 150px;
+}
+
+#ss{
+  text-align: right;
+}
+
+
+ul {
+  margin: 20px auto;
+  text-align: center;
+}
+
+
+.nav li {
+	color: #333;
+	display: inline-block;
+	font-family: "Times New Roman", Georgia, Serif;
+	font-size: 22px;
+	font-weight: 200;
+	text-transform: uppercase;
+	padding: 0px 40px;
+	height: autopx;
+	list-style:none;
+}
+
+.nav a {
+	 text-decoration: none;
+	 color:white;
+}
+
+#nav_wrapper ul li:hover{
+	background:	red;
+	transition:all 0.55s;
+	opacity:0.7;
+  	filter:apha(opacity=70);
+ 	text-decoration:none;
+ 
+}
+
+p {
+  color: #333;
+  font-family: "Times New Roman", Georgia, Serif;
+  font-size: 18px;
+}
+
+.con li {
+	color: black;
+	display: inline-block;
+	font-family: "Times New Roman", Georgia, Serif;
+	font-size: 18px;
+	text-align: left;
+	font-weight: 600;
+	text-transform: uppercase;
+	padding:0 40px;
+}
+
+
+
+.element{
+	display:inline;
+	font-family: "Times New Roman", Georgia, Serif;
+	font-size: 36px;
+	color:white;
+	text-align: left;
+	line-height: 100px;
+}
+
+.content-box{
+    position: relative;
+	width: 99%;
+	border-width: 10px;
+	background-size: cover;
+	margin: 0px auto;
+	height:300px;
+}
+
+.content-header{
+	background-position: center;
+    background-size: cover;
+    position: relative;
+    top: 0px;
+  	width:100%;
+}
+
+#things {
+		color:black;
+		text-align: center;
+		font-family: "Times New Roman", Georgia, Serif;
+		padding: 30px 40px;
+}
+
+#content-body{
+	margin:0 auto;
+	width: 100%;
+	height:150px;
+
+}
+
+.content-box ul{
+	padding: 0px;
+	margin:0px;
+	list-style-type:none;
+	position:relative;
+
+}
+
+.content-box li{
+    margin-bottom: 0px;
+	width:250px;
+	font-family: "Times New Roman", Georgia, Serif;
+	font-size:35px;
+}
+
+#newwrapper{
+	margin:0  auto;
+	text-align: left;
+}
+
+#content-body ul{
+	list-style-type:none;
+	position:relative;
+	padding:0;
+	margin:0;
+}
+
+#content-body ul li{
+	display:inline-block;
+}
+
+#content-body ul li:hover{
+	background-color:#20B2AA;
+}
+
+#content-body ul li a, visited{
+	color:black;
+	display:block;
+	padding:5px;
+	text-decoration: none;
+}
+
+#content-body ul li a:hover{
+	color:black;
+	text-decoration: none;
+}
+
+#content-body ul li:hover ul{
+	display:block;
+}
+
+#content-body ul ul{
+	display:none;
+	position:absolute;
+	background-color:#333;
+}
+
+#content-body ul ul li{
+	display:block;
+}
+
+#content-body ul ul li a, visited{
+	color:#ccc;
+}
+
+#content-body ul ul li a:hover{
+	color:#100;
+}
+
+/* ******************************************************************************************************** */ 
+/* digit clock */ 
+.digit{
+	position:absolute;
+	top:20%;
+	right: 45%;
+	color:#fff;
+	border: 3px solid #ccc;
+	padding: 0px 5px 0px 5px;
+	font-family: "Times New Roman", Georgia, Serif;
+	font-size: 22px;
+	text-align: center;
+}
+/* ******************************************************************************************************** */
+
+/* ******************************************************************************************************** */
+/* college div */
+.float-img{
+	float:left;
+	clear:left;
+    margin-right:10px;
+    margin-bottom:250px;
+    padding: 20px;
+    height:550px;
+}
+/* ******************************************************************************************************** */
+/* ******************************************************************************************************** */
+/* college div */
+.Collegebox{
+	margin-right:10px;
+    margin-bottom:5px;
+    padding: 2px;
+	border:solid black 5px;
+	height:930px;
+}
+/* ******************************************************************************************************** */
+#sixcollegetext{
+	font-size: 25px;
+	font-family: "Times New Roman", Georgia, Serif;
+	text-align:center;
+}
+/* ******************************************************************************************************** */
+.sixcollegeimage{
+    height: 300px;
+    overflow: hidden;
+    background-size: cover;
+    background-position: center center;
+}
+
+/* ******************************************************************************************************** */
+.sixcollegeimage {
+	transition:all 1.5s;
+}
+
+/* ******************************************************************************************************** */
+.sixcollegeimage:hover{
+   transform:scale(1.2);
+}
+/* ******************************************************************************************************** */
+#GE{
+	width:700px;
+	font-family: "Times New Roman", Georgia, Serif;
+	display: inline-block;
+}
+
+.button {
+    background-color: black; /* Green */
+    border: none;
+    color: white;
+ 	padding: 10px 20px;
+    text-decoration: none;
+    font-size: 32px;
+    font-family: "Times New Roman", Georgia, Serif; 
+    text-align: justify;
+}
+
+.Collegebox a {
+	text-decoration: none; 
+	color: black;
+}
+
+
+
+
+.right{
+	background-color:black;
+	height:50px;
+
+}
+
+.right p{
+		color:white;
+		text-align:left;
+		font-size:20px;
+		top: 60px; /* This will move it 20px up */
+}
+
+
+.pic {
+    width: 100px;
+    height:100px;
+    margin: 0 auto;
+}
+
+.picin{
+	width: 100px;
+    height:100px;
+}
+
+.logo{
+   text-align: left;
+   color: white;
+   font-size: 15px;  
+   font-family: "Times New Roman", Georgia, Serif;	
+   font-weight: bold;
+   margin-bottom: 0;
+   padding:-5px 0px;
+}
+
+.logo{
+	float:left;
+	margin-left:35px;
+	
+}
+
+.logo a{
+	text-decoration: none;
+	color: white;
+}
+
+
