@@ -1,3 +1,9 @@
+@media only screen and (max-width: 767px) {
+div#back {
+background-image: url('IMG URI HERE');
+}
+}
+
 #me{
     font-size:20px;
     font-family: "Times New Roman", Times, serif;
