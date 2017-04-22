@@ -1,5 +1,5 @@
 @media only screen and (max-width: 767px) {
-div#back {
+	.back {
 background-image: url('IMG URI HERE');
 }
 }
