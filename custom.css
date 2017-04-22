@@ -1,7 +1,10 @@
 @media only screen and (max-width: 767px) {
-	.back {
-background-image: url('IMG URI HERE');
-}
+	.intro-header {
+		padding-top: 50px; 
+    	padding-bottom: 50px;
+    	 text-align: center;
+		background: url('http://www.uksoftech.com/wp-content/uploads/2016/02/website-design-background.png');
+	}
 }
 
 #me{
