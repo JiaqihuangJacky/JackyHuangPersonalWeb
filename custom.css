@@ -68,40 +68,7 @@ body,html {
     border-radius: 5px;
 }
 
-#red {
-    background-color: #E94B35;
-    border-radius: 100%;
-    width: 15px;
-    height: 15px;
-    margin: 0 auto;
-    left: -47%;
-    bottom: -20%;
-    position:relative;
-}
 
-#yellow {
-    background-color: #f0f000;
-    border-radius: 100%;
-    width: 15px;
-    height: 15px;
-    margin: 0 auto;
-    left: -44%;
-    bottom: 40%;
-    position:relative;
-    display: block;
-}
-
-#green {
-    background-color: #1AAF5C;
-    border-radius: 100%;
-    width: 15px;
-    height: 15px;
-    margin: 0 auto;
-    left: -41%;
-    bottom: 99%;
-    position:relative;
-    display: block;
-}
 #screen {
     background-color: black;
     border-radius: 2%;
@@ -115,6 +82,16 @@ body,html {
     text-align: left;
     position: static;
 }
+
+.fontheader {
+    color: black;
+    font-family: monospace;
+    font-size: 15px;
+    text-align: left;
+    position: static;
+}
+
+
 #me{
     font-size:20px;
     font-family: "Times New Roman", Times, serif;
