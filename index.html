@@ -64,41 +64,6 @@ Description: personal website
 </style>
     
 
-<style>
-
-
-/*top background*/
-.intro-header { 
-    padding-top: 50px; 
-    padding-bottom: 50px;
-    text-align: center;
-    background: url('http://www.uksoftech.com/wp-content/uploads/2016/02/website-design-background.png') no-repeat center center fixed;
-    background-size: cover;
-    height: 855px;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-
-}
-
-
-
-    @media only screen and (max-width: 767px) {
-	.intro-header {
-		padding-top: 50px; 
-    	padding-bottom: 50px;
-    	 text-align: center;
-		background: url('http://www.uksoftech.com/wp-content/uploads/2016/02/website-design-background.png');
-		-webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-	}
-}
-    
-</style>
-
     
   </head>
  <!-- end of head -->
@@ -175,104 +140,36 @@ Purpose:   introduce myself
   <div class="container-fluid text-center me" id="myself">
     
         <!-- adding header for myself -->
-        <h1><Strong>Who am I?</Strong></h1>
+        <h2><Strong>Who am I?</Strong></h2>
         
         <!-- link to myself -->
         <a href="#"> 
             <img src="img/download.jpg" class="img-circle" alt="Cinque Terre" width="250" height="250" style="border: black 5px solid">
         </a>
           
-           <!-- about myself -->
-          <p id="me">My name is Jacky Huang.
-          I'm a web developer with a passion for perfection. </br>
-          I am a tireless seeker of knowledge and love the logic and structure of coding. I always strive </br>
-          to write elegant and efficient code, whether it be HTML, CSS, Javascript or anyother languages. My eye for design not </br>
-          only allows me to build beautiful responsive websites, but also allows me to be flexible and adaptable.</br> 
-          
-          </p>
-          
-          <p id="me"> I'm a very technical guy and I love challenges</br>
-          Something you will realize only when you do it,when you makemistakes or when you grow up.</br>
-          Smile when it hurts most.You will realize nothing is difficulties.</br>
-          </p>
-  </div>
   
-<div class = "container linux"> 
-<div  class = "container" id="bar">
-      <p class="fontheader"><strong>MobaXterm_Personal_9.4:JackyHuang@workhard-123</strong></p>
-</div>
-    <div class = "container" id="screen">
-        <p class="font">[JackyHuang@workhard-123]:~$</p>
-        <p class="font">[JackyHuang@workhard-123]:~$ ls </p>
-        <p class="font"> education.txt &nbsp&nbsp&nbsp whoami.txt </p>
-        <p class="font">[JackyHuang@workhard-123]:~$ cat whoami </p>
-        <!-- about myself -->
-          <p class="font">My name is Jacky Huang.
-          I'm a web  with a passion for perfection. </br>
-          I am a tireless seeker of knowledge and love the logic and structure of coding. I always strive 
-          to write elegant and efficient code, whether it be HTML, CSS, Javascript or anyother languages. My eye for design not 
-          only allows me to build beautiful responsive websites, but also allows me to be flexible and adaptable.</br> 
           
-          </p>
+          <!-- ******************************************************************************************************** -->
+  	<div id= "mypost" > <!-- Document my post start -->
+   <script src="typed.js"></script>
+   <script>
+   document.addEventListener('DOMContentLoaded', function(){
+	        Typed.new('.element', {
+			strings: ["My name is Jacky, <br/> I am a transfer student from UCSD.<br/> You own me money. HHAHAHAHAHA"],
+				        typeSpeed: 10
+						      });
+		  });
+  </script>
+   <div class="element"></div>
+	</div> <!-- end of my post -->
+ <!-- ******************************************************************************************************** -->
+ </div>
  
-          
-          <p class="font">[JackyHuang@workhard-123]:~$ cat education </p>
-          <p class="font"> University of Califronia, San Diego &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp  Sep 2017 - March 2019 </p>
-          <p class="font"> Bachelor of Science in Computer Science </p>
-          <p class="font">De Anza College, Cupertino &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp  June 2014 - June 2016 </p>
-          <p class="font">Associate degree of Science in Computer Science </p>
-          <p class="font">[JackyHuang@workhard-123]:~$ exit </p>
-    </div>
-</div> 
+  </div>
 
 
 
-  
-<!----------------------------------------------------------------------
-Name: project
-Purpose:   introduce my projects
----------------------------------------------------------------------- -->  
-<div class="container-fluid mypro">
-    <div class="text-center" id="mypro"><h2><strong>My project</strong></h2></div>
-        <div class="container">
 
-                <div class="panel panel-default">
-                    <div class="panel-heading">
-                        <a href="#"><img src="img/psbreak.jpg" class="img-circle" alt="Cinque Terre" width="150" height="150">
-                        </a>
-                          Prison Break Group Project in C++: 
-                    </div>
-                    <div class="panel-body">
-          •	Simulated a database design to fetch data from files </br>
-          •	Stored the actual objects of prisoners into linked list</br>
-          •	Restored pointer of objects into the binary search trees & hash table</br>
-          •	Created a bar for users to search, delete, insert, and traverse</br>
-          •	Calculated the statistic, and number of collision in hash table </br>
-                    </div>
-              </div>
-  
-
-    <div class="panel panel-default">
-          <div class="panel-heading">
-                <a href="#"><img src="img/Website.jpg" class="img-circle" alt="Cinque Terre" width="150" height="150">
-                </a>
-          
-                TritonAngel: 
-          </div>
-          
-                <div class="panel-body">
-          •	Personal website created by JavaScript, HTML, CSS </br>
-          •	Developed controller to list important information regarding transfer to UCSD on the website</br>
-          •	Developed different web applications such as calculator, calendar, and clock </br>
-          •	Designed and documented website framework using jQuery  </br>
-
-                </div>
-          </div>
-    </div>
-</div> 
-
-
-  
 <!----------------------------------------------------------------------
 Name: my experience
 Purpose:   introduce my experience
@@ -292,46 +189,82 @@ Purpose:   introduce my experience
 Name: my skills
 Purpose:   introduce my skills
 ---------------------------------------------------------------------- --> 
-<div class="container-fluid skill">
-  <div class="row text-center " id="myskills">
-      <h2><Strong>My skills</Strong></h2>
-      <div class="col-md-4">
-          <a href="#"><img src="img/c-cpp-programming.jpg" class="img-circle" alt="Cinque Terre" width="100" height="100"></a>
-    
-      </div>
-      
-        <div class="col-md-4 text-center">
-         <a href="#"><img src="img/js.png" class="img-circle" alt="Cinque Terre" width="100" height="100"></a>
-    
-         
-      </div>
-      
-        <div class="col-md-4 text-center">
-        <a href="#"><img src="img/java.png" class="img-circle" alt="Cinque Terre" width="100" height="100"></a>
-        
-          
-      </div>
-      
-        <div class="col-md-4 text-center">
-        <a href="#"><img src="img/linux_inside.png" class="img-circle" alt="Cinque Terre" width="100" height="100"></a>
-        
-         
-          
-      </div>
-      
-        <div class="col-md-4 text-center">
-        <a href="#"><img src="img/jquery-icon.png" class="img-circle" alt="Cinque Terre" width="100" height="100"></a>
-         
-         
-      </div>
-      
-        <div class="col-md-4 text-center">
-        <a href="#"><img src="img/pythonlogo.jpg" class="img-circle" alt="Cinque Terre" width="150" height="200"></a>
-         
-        
-      </div>
+<center>
+<div id="SkillBox">
+        <center><p>My Skills</p></center>
+        <img src="http://2.bp.blogspot.com/--aPlnH6X1YA/UEf7yeJ3gGI/AAAAAAAATgw/TgMK9IVzipk/s1600/Skills%2B-%2BPawan%2BMall.png" alt="Skill - Pawan Mall" />
+  <div class="SkillBar">
+    <div id="Skill-HTML"> 
+      <span class="Skill-Area ">HTML</span>
+      <span class="PercentText ">100%</span>
+    </div>
   </div>
+  
+  <div class="SkillBar">
+    <div id="Skill-CSS">
+      <span class="Skill-Area ">CSS/CSS3</span>
+      <span class="PercentText ">70%</span>
+    </div>
+  </div>
+
+  <div class="SkillBar">
+    <div id="Skill-jQuery">
+      <span class="Skill-Area ">jQuery</span>
+      <span class="PercentText ">40%</span>
+    </div>
+  </div>
+  
+  <div class="SkillBar">
+    <div id="Skill-JS">
+      <span class="Skill-Area ">Javascript</span>
+      <span class="PercentText ">65%</span>
+    </div>
+  </div>
+  
+  <div class="SkillBar">
+    <div id="Skill-XML">
+      <span class="Skill-Area ">XML </span>
+      <span class="PercentText ">40%</span>
+    </div>
+  </div>
+  
+    <div class="SkillBar">
+    <div id="Skill-C">
+      <span class="Skill-Area ">C</span>
+      <span class="PercentText ">30%</span>
+    </div>
+  </div>
+  
+    <div class="SkillBar">
+    <div id="Skill-JAVA">
+      <span class="Skill-Area ">JAVA </span>
+      <span class="PercentText ">25%</span>
+    </div>
+  </div>
+  
+    <div class="SkillBar">
+    <div id="Skill-PHP">
+      <span class="Skill-Area ">PHP </span>
+      <span class="PercentText ">50%</span>
+    </div>
+  </div>
+  
+    <div class="SkillBar">
+    <div id="Skill-SQL">
+      <span class="Skill-Area ">SQL </span>
+      <span class="PercentText ">80%</span>
+    </div>
+  </div>
+  
+    <div class="SkillBar">
+    <div id="Skill-VBNET">
+      <span class="Skill-Area ">Python</span>
+      <span class="PercentText ">35%</span>
+    </div>
+  </div>
+  
 </div>
+</center>
 
 
 
@@ -339,22 +272,29 @@ Purpose:   introduce my skills
 Name: Familiar with tools
 Purpose:   introduce my tools
 ---------------------------------------------------------------------- --> 
-    <div class="container text-center tools" id="tools">
-        <h2><Strong>Familiar tools</Strong></h2>
-        
- 
-       <button type="button" class="btn btn-primary btn-lg">Visual Studio</button>
-       <button type="button" class="btn btn-success btn-lg">Eclipse</button>
-       <button type="button" class="btn btn-warning btn-lg">Bash</button>
-       <button type="button" class="btn btn-secondary btn-lg">Python IDIE</button>
-       <button type="button" class="btn btn-danger btn-lg">MARS simulator </button>
-       </div>
+
+<div class = "container linux" id="tools"> 
+    <div  class = "container" id="bar">
+        <p class="fontheader">Familiar tools</p>
     </div>
-    
-    
+    <div class = "container" id="screen">
+        <p class="font">[JackyHuang@workhard-123]:~$</p>
+        <p class="font">[JackyHuang@workhard-123]:~$ ls </p>
+        <p class="font" style="color:#90EE90">my_familiar_tool.txt </p>
+          
+          <p class="font">[JackyHuang@workhard-123]:~$ cat my_familiar_tool.txt </p>
+          <p class="font">Visual Studio</p>
+          <p class="font">Eclipse</p>
+          <p class="font">Bash</p>
+          <p class="font">Python IDIE</p>
+          <p class="font">MARS simulator</p>
+          <p class="font">DB browser for sqlite</p>
+          <p class="font">[JackyHuang@workhard-123]:~$ exit </p>
+    </div>
+</div> 
   
 
-
+ 
 
 <!----------------------------------------------------------------------
 Name: about
@@ -418,22 +358,24 @@ Purpose:  box to myweixin
 Name:fixed foot
 Purpose:  adding fixed foot with social media
 ---------------------------------------------------------------------- -->
-  <div class="navbar navbar-inverse foot"> 
+
+  <div class="navbar navbar-inverse  opaque-navba" id="copyright"> 
     <div class="container-fluid"> 
       <div class="navbar-text  pull-left">
-            <p id="copy"> CopyRight @Jiaqi Huang</p>
+            <p id="copy"> <strong>CopyRight <i class="fa fa-copyright" aria-hidden="true"></i> Jacky Huang   </strong> </p>
       </div>  
     
       <!-- fixed foot right-->
       <div class="navbar-text pull-right">
-           <a href="https://www.facebook.com/jiaqi.huang.73?ref=bookmarks"><i class="fa fa-facebook-official fa-2x" aria-hidden="true"></i></a>
-           <a href="https://www.instagram.com/jacky_jiaqihuang/"><i class="fa fa-instagram fa-2x" aria-hidden="true"></i></a>
-           <a href="https://www.linkedin.com/in/%E5%AE%B6%E7%A5%BA-%E9%BB%84-686a42104/"><i class="fa fa-linkedin fa-2x" aria-hidden="true"></i></a>
-           <a href="https://www.linkedin.com/in/%E5%AE%B6%E7%A5%BA-%E9%BB%84-686a42104/"  data-toggle="modal" data-target="#Myweixin"><i class="fa fa-weixin fa-2x" aria-hidden="true"></i></a>
+           <a href="https://www.facebook.com/jiaqi.huang.73?ref=bookmarks" target="_blank"><i class="fa fa-facebook-official fa-2x" aria-hidden="true"  style="color:#00BFFF;"></i></a>
+           <a href="https://www.instagram.com/jacky_jiaqihuang/" target="_blank"><i class="fa fa-instagram fa-2x" aria-hidden="true" style="color:#EE82EE;"></i></a>
+           <a href="http://lmgtfy.com/?q=Sorry+this+is+not+available" target="_blank"><i class="fa fa-linkedin fa-2x" aria-hidden="true" style="color:#DB7093;"></i></a>
+           <a href="http://lmgtfy.com/?q=Sorry+this+is+not+available"  target="_blank"><i class="fa fa-weixin fa-2x" aria-hidden="true" style="color:#9ACD32;"></i></a>
       </div>
            
     </div>
   </div>
+
 
 
 
@@ -496,7 +438,7 @@ Purpose:  arrange time and distance and duration for animaition
         viewFactor:0.2
       });
       
-       sr.reveal('.tools',{
+       sr.reveal('.linux',{
         duration:2000,
         origin:'right',
         distance:'300px',
