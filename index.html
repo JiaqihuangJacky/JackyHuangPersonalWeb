@@ -451,7 +451,7 @@ Purpose:   introduce my tools
 
 
 
-<div class="container text-center">
+<div class="container text-center" id ="lan">
   <h2><Strong>Languages</Strong></h2>
   <hr>
   <canvas class='progressBar' width="120px" height="120px" data-skill="4" data-text="Mandarin"></canvas>
@@ -644,37 +644,58 @@ Purpose:  arrange time and distance and duration for animaition
         viewFactor:0.2
       });
       
-      sr.reveal('.education',{
+      sr.reveal('#edu',{
+        duration:3000,
+        origin:'bottom',
+        distance:'100px',
+        viewFactor:0.2
+      });
+      
+       sr.reveal('#experience',{
         duration:3000,
         origin:'right',
         distance:'100px',
         viewFactor:0.2
       });
       
+      sr.reveal('#experience2',{
+        duration:3000,
+        origin:'left',
+        distance:'100px',
+        viewFactor:0.2
+      });
+      
        sr.reveal('.mypro',{
         duration:2000,
-        origin:'left',
+        origin:'right',
         distance:'300px',
         viewFactor:0.2
       });
       
       sr.reveal('.experience',{
         duration:2000,
-        origin:'right',
+        origin:'left',
         distance:'300px',
         viewFactor:0.2
       });
       
        sr.reveal('#SkillBox',{
         duration:2000,
-        origin:'left',
+        origin:'right',
         distance:'300px',
         viewFactor:0.2
       });
       
        sr.reveal('.linux',{
         duration:2000,
-        origin:'right',
+        origin:'left',
+        distance:'300px',
+        viewFactor:0.2
+      });
+      
+       sr.reveal('#lan',{
+        duration:2000,
+        origin:'left',
         distance:'300px',
         viewFactor:0.2
       });
